@@ -1,0 +1,253 @@
+body {
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: #AAAAAA;
+	scrollbar-3dlight-color: #51A432;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-shadow-color: #51A432;
+	scrollbar-arrow-color: #51A432;
+	scrollbar-track-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	border: 0px;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	vertical-align: top;
+	text-align: center;
+	border: 0px;
+}
+body, td, marquee, div, span, a, font, input, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+table {
+	border-width: 0px;
+	border-style: solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	empty-cells: show;
+}
+td {
+	padding: 0px;
+	vertical-align: middle;
+	border-width: 0px;
+	border-style: solid;
+}
+img {
+	border: 0px;
+}
+a:link {
+	text-decoration: none;
+	color: #51A432;
+}
+a:hover {
+	text-decoration: underline;
+	color: #00FF00;
+}
+a:visited {
+	text-decoration: none;
+	color: #999999;
+}
+.rolagem {
+	overflow: auto;
+}
+.tbl {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.topo {
+	background-color: #FFFFFF;
+	width: 100%;
+	background-image: url(imagens/gradiente.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.pg {
+	width: 100%;
+	vertical-align: top;
+}
+.tbl_menu {
+	width: 0.01%;
+	vertical-align: top;
+}
+.sombra {
+	filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+}
+.titulo_topo {
+	filter: Glow(Color=#FFFFFF, Strength=5);
+	font-family: Arial Black, Arial, Times, sans-serif;
+	font-size: 18px;
+	letter-spacing: 7px;
+	text-align: center;
+	width: 100%;
+	vertical-align: middle;
+}
+.saudacao {
+	filter: Glow(Color=#000000, Strength=2);
+	color: #FFFFFF;
+	white-space: nowrap;
+	width: 0.01%;
+	vertical-align: bottom;
+	text-align: right;
+	font-size: 9px;
+	padding-right: 5px;
+}
+.menu_contexto {
+	position: absolute;
+	display: none;
+	background-color: #99FFFF;
+	filter: Alpha(Opacity=80, FinishOpacity=80, Style=10, StartX=10, StartY=100, FinishX=10, FinishY=100);
+	z-index: 10;
+	cursor: hand;
+}
+.cel_menu_contexto {
+	white-space: nowrap;
+	font-family: Helvetica, sans-serif, Verdana, Arial;
+	border-bottom: 1px dashed #0000FF;
+	padding: 2px;
+}
+.sub_menu {
+	position: absolute;
+	z-index: 9;
+	border: 1px solid #0000FF;
+	padding: 5px;
+	cursor: default;
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity=80, FinishOpacity=80, Style=10, StartX=10, StartY=100, FinishX=10, FinishY=100);
+	display: none;
+}
+.avisos {
+	position: absolute;
+	z-index: 10;
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity=50, FinishOpacity=50, Style=10, StartX=10, StartY=100, FinishX=10, FinishY=100);
+	font-size: 14px;
+	font-weight: bolder;
+}
+.tbl_calendario {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #CCCCCC;
+	width: 100%;
+}
+.cel_calendario {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCCCCC;
+	text-align: center;
+	padding: 1px;
+	cursor: default;
+	font-size: 9px;
+}
+.img_menu {
+	padding: 2px;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-bottom-color: #51A432;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	text-align: center;
+	width: 0.01%;
+}
+.menu_esq {
+	padding: 2px;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-bottom-color: #51A432;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-right-color: #51A432;
+	border-right-style: dotted;
+	border-right-width: 1px;
+	text-align: left;
+	font-weight: bold;
+	width: 0.01%;
+}
+.menu_dir {
+	padding: 3px;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-bottom-color: #51A432;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	border-left-color: #51A432;
+	border-left-style: dotted;
+	border-left-width: 1px;
+	text-align: right;
+	font-weight: bold;
+}
+.txt_novo {
+	text-align: right;
+	width: 0.01%;
+	white-space: nowrap;
+	border-color: #51A432;
+	border-style: solid;
+	border-width: 1px;
+	border-right: 0px;
+	padding: 3px;
+}
+.campo {
+	border-color: #51A432;
+	border-style: solid;
+	border-width: 1px;
+	border-left: 0px;
+	padding: 3px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.tamanho {
+	border-color: #51A432;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: center;
+}
+.tbl_pag {
+	width: 100%;
+	height: 100%;
+}
+.icone {
+	padding: 2px;
+	border: 0px;
+}
+.txt {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+}
+.centro {
+	text-align: center;
+}
+.titulo {
+	text-align: center;
+	font-weight: bold;
+}
+.cotacao {
+	border-color: #51A432;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+}
+.venda {
+	border-color: #51A432;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+}
+.nome_pag {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	width: 100%;
+}
